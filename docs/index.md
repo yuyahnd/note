@@ -36,6 +36,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
   - [https://github.com/Drassil/git-wiki](https://github.com/Drassil/git-wiki)
 
 ### links
+- [https://yuyahnd.github.io/note/mac/](https://yuyahnd.github.io/note/mac/)
 - [https://roncaspot.github.io/](https://roncaspot.github.io/)
 - [https://github.com/roncaspot/roncaspot.github.io](https://github.com/roncaspot/roncaspot.github.io)
 

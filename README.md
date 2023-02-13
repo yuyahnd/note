@@ -41,6 +41,12 @@ $ mkdocs serve
 $ mkdocs build
 ```
 
+### Github Pages deploy
+```bash
+$ mkdocs gh-deploy
+```
+
+
 ## License
 This repository is licensed under the MIT license. See LICENSE for details.
 

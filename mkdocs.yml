@@ -1,4 +1,31 @@
+# Site
 site_name: Note
+site_url: https://yuyahnd.github.io/note/
+repo_url: https://github.com/yuyahnd/note
 
+# Theme
 theme:
   name: material
+  language: ja
+  palette:
+    primary: black
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+
+# Navigation
+nav:
+  - Home: index.md
+
+# Plugin
+plugins:
+  search:
+    lang: 'ja'
+
+# Extra
+extra:
+  generator: false
+
+# Copyright
+copyright: 'Copyright © 2023 Yuya Honda.'

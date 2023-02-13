@@ -1,5 +1,5 @@
 # note
-Miscellaneous note.
+Information gathering notes.
 
 ## Installation
 github から clone します。

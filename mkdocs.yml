@@ -42,6 +42,8 @@ nav:
   - Home: index.md
   - Notes:
     - notes/index.md
+    - Mac:
+      - notes/mac/index.md
     - Markdown: notes/markdown.md
     - MkDocs:
       - notes/mkdocs/index.md

@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://yuyahnd.github.io/note/notes/mac/</loc>
+         <lastmod>2023-02-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://yuyahnd.github.io/note/notes/mermaid/</loc>
          <lastmod>2023-02-14</lastmod>
          <changefreq>daily</changefreq>

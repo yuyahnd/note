@@ -10,6 +10,8 @@ theme:
   palette:
     primary: black
   features:
+    - content.code.copy
+    - content.code.annotate
     - navigation.tracking
     - navigation.tabs
     - navigation.indexes
@@ -20,6 +22,13 @@ theme:
 plugins:
   search:
     lang: ja
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 # Extra
 extra:

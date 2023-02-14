@@ -10,18 +10,16 @@ theme:
   palette:
     primary: black
   features:
+    - navigation.tracking
     - navigation.tabs
     - navigation.indexes
     - navigation.top
-
-# Navigation
-nav:
-  - Home: index.md
+    - toc.follow
 
 # Plugin
 plugins:
   search:
-    lang: 'ja'
+    lang: ja
 
 # Extra
 extra:
@@ -29,3 +27,19 @@ extra:
 
 # Copyright
 copyright: 'Copyright © 2023 Yuya Honda.'
+
+# Navigation
+nav:
+  - Home: index.md
+  - Notes:
+    - notes/index.md
+    - Markdown: notes/markdown.md
+    - MkDocs:
+      - notes/mkdocs/index.md
+    - mermaid:
+      - notes/mermaid/index.md
+      - Flowchart: notes/mermaid/flowchart.md
+  - Code:
+    - code/index.md
+    - Python:
+      - code/python/index.md

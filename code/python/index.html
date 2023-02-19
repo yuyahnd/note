@@ -303,6 +303,8 @@
         
           
         
+          
+        
       
       
         
@@ -349,12 +351,56 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../notes/mac/">Mac</a>
+          <a href="../../notes/git/">Git</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Git
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+      
+      
+        
+          
+            
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../notes/mac/">Mac</a>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
           Mac
         </label>
@@ -394,7 +440,7 @@
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
       
       
         
@@ -411,8 +457,8 @@
           
         </div>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_2_4">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_5">
           <span class="md-nav__icon md-icon"></span>
           MkDocs
         </label>
@@ -438,7 +484,7 @@
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
       
       
         
@@ -455,14 +501,14 @@
         <div class="md-nav__link md-nav__link--index ">
           <a href="../../notes/mermaid/">mermaid</a>
           
-            <label for="__nav_2_5">
+            <label for="__nav_2_6">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_2_5">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_6">
           <span class="md-nav__icon md-icon"></span>
           mermaid
         </label>
@@ -616,6 +662,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#github-pip-install" class="md-nav__link">
+    github のリポジトリを pip install する
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -634,6 +695,11 @@
 
 
 <h1 id="python">Python</h1>
+<h2 id="github-pip-install">github のリポジトリを pip install する</h2>
+<div class="highlight"><span class="filename">https</span><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>git+https://github.com/<span class="o">(</span>アカウント名<span class="o">)</span>/<span class="o">(</span>リポジトリ名<span class="o">)</span>.git@<span class="o">(</span>ブランチ名<span class="o">)</span>
+</code></pre></div>
+<div class="highlight"><span class="filename">ssh</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>pip<span class="w"> </span>install<span class="w"> </span>git+ssh://git@github.com/<span class="o">(</span>アカウント名<span class="o">)</span>/<span class="o">(</span>リポジトリ名<span class="o">)</span>.git@<span class="o">(</span>ブランチ名<span class="o">)</span>
+</code></pre></div>
 
 
 

@@ -48,7 +48,7 @@ nav:
     - notes/index.md
     - Git:
       - notes/git/index.md
-      - merge_subtree: notes/git/merge_subtree.md
+      - merge subtree: notes/git/merge_subtree.md
     - Mac:
       - notes/mac/index.md
     - Markdown: notes/markdown.md

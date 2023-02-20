@@ -48,12 +48,13 @@ nav:
     - notes/index.md
     - Git:
       - notes/git/index.md
+      - merge_subtree: notes/git/merge_subtree.md
     - Mac:
       - notes/mac/index.md
     - Markdown: notes/markdown.md
     - MkDocs:
       - notes/mkdocs/index.md
-    - mermaid:
+    - Mermaid:
       - notes/mermaid/index.md
       - Flowchart: notes/mermaid/flowchart.md
   - Code:
